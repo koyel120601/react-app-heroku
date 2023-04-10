@@ -18,6 +18,7 @@ class App extends Component {
     console.log("handleSubmit called");
     const outputDiv = document.getElementById('output');
     const formData = new FormData(this.formRef.current);
+    // here my flask is running it localhost
     fetch('http://localhost:5000/', {
       method: 'POST',
       body: formData
