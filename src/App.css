@@ -8,18 +8,71 @@
   }
 }
 
-form{
+
+body {
   background-image: url("https://images.pexels.com/photos/912050/pexels-photo-912050.jpeg?cs=srgb&dl=pexels-ahmed-muntasir-912050.jpg&fm=jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 100vh;
+
+  
+}
+
+h4{
+  text-align: right;
+}
+
+.container{
+  
+  text-align: right;
+ 
+}
+.container1{
+  text-align: right ;
+}
+img{
+  display: flex;
+  justify-content: flex-end;
+  float:right;
+}
+.inputs {
+  display: flex;
+  text-align: right;
+  align-items: start;
+  flex-direction: column;
+}
+h3{
+  text-decoration: solid;
+  text-align: left;
+}
+
+label {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+input[type="radio"] {
+  margin-right: 5px;
+}
+
+
+/* #App{
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
   font-size: calc(10px + 2vmin);
+  font-;
   color: white;
-}
+} */
+
+
+
 
 .App-link {
   color: #61dafb;
